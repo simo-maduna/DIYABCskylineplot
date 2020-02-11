@@ -94,8 +94,8 @@ if (prior_on_theta){
 
   # prior on time of population size changes
   prior_T            <- "LU"    # "LU" for log-uniform, "UN" for uniform
-  prior_T_min        <- 1     # maximum time (measured in number of mutations)
-  prior_T_max        <- 5000  # maximum time (measured in number of mutations)
+  prior_T_min        <- 1     # maximum time (measured in number of generations)
+  prior_T_max        <- 5000  # maximum time (measured in number of generations)
   
   
   # prior on mutational model
